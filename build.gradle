@@ -38,10 +38,10 @@ dependencyManagement {
         dependency group: 'org.springframework.cloud', name: 'spring-cloud-starter-sleuth', version: '2.2.8.RELEASE'
         dependency group: 'org.springframework.cloud', name: 'spring-cloud-sleuth-zipkin', version: '2.2.8.RELEASE'
         dependency group: 'io.opentracing.brave', name: 'brave-opentracing', version: '1.0.0'
-	dependency group: 'org.springframework.boot',name: 'spring-boot-starter-data-jpa', version: '2.3.9.RELEASE'
-	dependency group: 'org.springframework.boot',name: 'spring-boot-starter-amqp', version: '2.3.5.RELEASE'
-	dependency group: 'mysql',name: 'mysql-connector-java', version: '5.1.21'
-	dependency group: 'org.springframework.boot', name:'spring-boot-starter-thymeleaf', version: '2.5.3'
+	dependency group: 'org.springframework.boot',name: 'spring-boot-starter-data-jpa'
+	dependency group: 'org.springframework.boot',name: 'spring-boot-starter-amqp'
+	dependency group: 'mysql',name: 'mysql-connector-java'
+	dependency group: 'org.springframework.boot', name:'spring-boot-starter-thymeleaf'
 	
     }
 }
